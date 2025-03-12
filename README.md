@@ -19,7 +19,7 @@ This repository contains MATLAB implementations of various neural network archit
 - **Memory Cell Optimization**: Customized memory cell structures
 - **Sequential Data Processing**: Tools for handling time-series inputs
 
-### File 4: Deep Convolutional Neural Networks
+### File 4: Explainable Deep Convolutional Neural Networks
 - **Explainable CNN**: Deep CNN with gradient monitoring for interpretability
 - **Gradient Visualization**: Tools for visualizing gradient flow through the network
 - **Feature Map Analysis**: Methods for analyzing learned representations
