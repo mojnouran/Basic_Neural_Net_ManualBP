@@ -35,4 +35,4 @@ This repository contains MATLAB implementations of various neural network archit
 
 ### Prerequisites
 - MATLAB (developed on version R2019b or later)
-- No additional toolboxes required
+- No additional toolboxes required (Except File 4 which requires the Deep Learning Toolbox)
