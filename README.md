@@ -10,10 +10,9 @@ This repository contains MATLAB implementations of various neural network archit
 - **Robust Autoencoder Design**: Architectures optimized for handling noisy and incomplete data
 
 ### File 2: Recurrent Neural Networks
-- **Elman Networks**: Time-delayed feedback from hidden layer to input
-- **Jordan Networks**: Output-to-hidden layer feedback mechanisms
-- **Hybrid Architectures**: Combined Elman/Jordan feedback structures
-- **MLP Autoencoders**: Fully connected multilayer perceptron autoencoders
+- **Elman Autoencoders**: Time-delayed feedback from hidden layer to input with separate dense layer
+- **Jordan Autoencoders**: Output-to-hidden layer feedback mechanisms with separate dense layer
+- **Hybrid Architectures**: Combined Elman/Jordan feedback mechanisms in a single autoencoder
 
 ### File 3: LSTM Autoencoders
 - **Long Short-Term Memory**: Implementations of LSTM autoencoder architectures
@@ -37,3 +36,10 @@ This repository contains MATLAB implementations of various neural network archit
 ### Prerequisites
 - MATLAB (developed on version R2019b or later)
 - No additional toolboxes required
+
+### Usage
+Each implementation folder contains a main script that demonstrates the use of the corresponding neural network architecture:
+```matlab
+% Example for running an RBF autoencoder
+cd 'File 1'
+run rbf_autoencoder_demo.m
