@@ -36,10 +36,3 @@ This repository contains MATLAB implementations of various neural network archit
 ### Prerequisites
 - MATLAB (developed on version R2019b or later)
 - No additional toolboxes required
-
-### Usage
-Each implementation folder contains a main script that demonstrates the use of the corresponding neural network architecture:
-```matlab
-% Example for running an RBF autoencoder
-cd 'File 1'
-run rbf_autoencoder_demo.m
