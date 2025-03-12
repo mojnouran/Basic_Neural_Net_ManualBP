@@ -1,28 +1,39 @@
-# Neural Nets Project
+# Neural Networks from Scratch
+This repository contains MATLAB implementations of various neural network architectures, all coded from scratch with manual backpropagation. These implementations focus on different autoencoder architectures and recurrent neural networks.
 
-This repository contains MATLAB implementations of various neural network architectures, all developed from scratch with manual backpropagation. The project includes Radial Basis Function (RBF) autoencoders, Rough-set based autoencoders, Long Short-Term Memory (LSTM) autoencoders, Elman and Jordan recurrent neural networks (RNNs) along with their hybrids, and a deep Convolutional Neural Network (CNN) with explainable gradient monitoring. These implementations emphasize the underlying mechanics of neural networks, making them valuable for educational purposes and research exploration.
+## Repository Contents
 
-## Table of Contents
+### File 1: Advanced Autoencoder Implementations
+- **Flexible Neuron Autoencoders**: Implementation of autoencoder architectures with configurable neuron types
+- **RBF Autoencoders**: Radial Basis Function-based autoencoders for non-linear transformations
+- **Dropout-enabled Autoencoders**: Implementations with dropout regularization to prevent overfitting
+- **Robust Autoencoder Design**: Architectures optimized for handling noisy and incomplete data
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [File Descriptions](#file-descriptions)
-  - [File 1: Autoencoders with Flexible Neurons, RBF Neurons, and Dropout](#file-1-autoencoders-with-flexible-neurons-rbf-neurons-and-dropout)
-  - [File 2: Basic RNNs - Elman/Jordan Autoencoders with MLP Fully Connected Layers](#file-2-basic-rnns---elmanjordan-autoencoders-with-mlp-fully-connected-layers)
-  - [File 3: LSTM Autoencoders](#file-3-lstm-autoencoders)
-  - [File 4: Deep CNN with Explainable Gradient Monitoring](#file-4-deep-cnn-with-explainable-gradient-monitoring)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+### File 2: Recurrent Neural Networks
+- **Elman Networks**: Time-delayed feedback from hidden layer to input
+- **Jordan Networks**: Output-to-hidden layer feedback mechanisms
+- **Hybrid Architectures**: Combined Elman/Jordan feedback structures
+- **MLP Autoencoders**: Fully connected multilayer perceptron autoencoders
 
-## Installation
+### File 3: LSTM Autoencoders
+- **Long Short-Term Memory**: Implementations of LSTM autoencoder architectures
+- **Memory Cell Optimization**: Customized memory cell structures
+- **Sequential Data Processing**: Tools for handling time-series inputs
 
-To run these MATLAB scripts, ensure you have the following:
+### File 4: Deep Convolutional Neural Networks
+- **Explainable CNN**: Deep CNN with gradient monitoring for interpretability
+- **Gradient Visualization**: Tools for visualizing gradient flow through the network
+- **Feature Map Analysis**: Methods for analyzing learned representations
 
-- **MATLAB** (version R2020a or later recommended)
-- No additional toolboxes are strictly required, as all implementations are coded from scratch. However, the **Deep Learning Toolbox** or **Statistics and Machine Learning Toolbox** may be useful for testing or extending the code.
+## Technical Features
 
-Clone this repository to your local machine using:
+- **Manual Backpropagation**: All implementations include hand-coded backpropagation algorithms
+- **Rough-set Based Autoencoders**: Novel approach using rough set theory for handling uncertainty
+- **RBF Integration**: Specialized radial basis function implementations for pattern recognition
+- **Hybrid Models**: Combinations of different architectural paradigms
 
-```bash
-git clone https://github.com/yourusername/neural-nets-project.git
+## Getting Started
+
+### Prerequisites
+- MATLAB (developed on version R2019b or later)
+- No additional toolboxes required
